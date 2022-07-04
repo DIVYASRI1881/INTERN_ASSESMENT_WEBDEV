@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.lefticon {
+    height: 20px;
+    width: 10px;
+    border: 2px solid black;
+    border-radius: 1.25em;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: -1em;
+    background-color: #fff;
+    background-repeat: no-repeat;
+}
+
+.righticon {
+    height: 20px;
+    width: 10px;
+    border: 2px solid black;
+    border-radius: 1.25em;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    right: -1em;
+    background-color: #fff;
+}
+
+.mobile-about {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .mobile-about {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .SliderSyncwrapper {
+        margin-top: 15px !important;
+    }
+    .SliderSyncwrapper .slick-arrow.slick-prev,
+    .SliderSyncwrapper .slick-arrow.slick-next {
+        display: none !important;
+    }
+    .MuiAccordionDetails-root {
+        display: flex;
+    }
+    .sc-jqUVSM {
+        margin: 0 !important;
+    }
+}

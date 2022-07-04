@@ -1,0 +1,150 @@
+:root {
+    --sonic-silver: rgba(115, 112, 112, 1);
+}
+
+.flex-Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Publication-Wrapper h2 {
+    font-size: 28px;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.First-flex img {
+    width: 350px;
+    height: 791px;
+    border: 0.5px solid rgba(70, 67, 67, 1);
+}
+
+.Second-One img {
+    width: 300px;
+    height: 422px;
+    border: 0.5px solid rgba(70, 67, 67, 1);
+    margin-left: 79px;
+}
+
+.Second-One img:first-child {
+    margin-bottom: 28px;
+}
+
+.Second-One img:last-child {
+    margin-bottom: 29px;
+}
+
+.Second-Two img:first-child {
+    width: 300px;
+    height: 300px;
+    border: 0.5px solid rgba(70, 67, 67, 1);
+}
+
+.Second-Two img:last-child {
+    width: 300px;
+    height: 340px;
+    border: 0.5px solid rgba(70, 67, 67, 1);
+}
+
+.Second-Two img {
+    margin-left: 79px;
+}
+
+.ap-contain {
+    margin-left: 45%;
+}
+
+.ap {
+    background: #747171;
+    border-radius: 20px;
+    width: 150px;
+    height: 34.62px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    font-size: 1.125rem;
+    color: #ffffff;
+    margin-top: 71px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .flex-Container {
+        display: flex;
+        align-items: baseline;
+        width: 90%;
+        margin: auto;
+        padding-left: 1%;
+    }
+    .Publication-Wrapper h2 {
+        margin-top: 2.5rem;
+        margin-bottom: 0;
+        margin-bottom: 1.875rem;
+    }
+    .abcd {
+        object-fit: contain;
+        height: 100px;
+        width: 130px;
+        flex-wrap: wrap;
+        padding: 2px;
+    }
+    .hid {
+        display: none;
+    }
+    .First-flex img {
+        width: 7.188rem;
+        height: 16.25rem;
+        margin-right: 0.938rem;
+        border: 0.5px solid #464343;
+        box-sizing: border-box;
+    }
+    .Second-One img {
+        width: 6.289rem;
+        height: 8.813rem;
+        margin: 0.625rem;
+    }
+    .Second-Two img:first-child {
+        width: 6.289rem;
+        height: 6.289rem;
+        margin: 0.625rem;
+    }
+    .Second-Two img:last-child {
+        width: 6.289rem;
+        height: 8rem;
+        margin: 0.625rem;
+    }
+    .Second-One {
+        display: flex;
+        height: 9rem;
+    }
+    .ap-contain {
+        height: 1.188rem;
+        width: 5rem;
+        margin-top: 1.875rem;
+        margin-bottom: 1.875rem;
+    }
+    .ap {
+        width: 5.313rem;
+        height: 1.125rem;
+        border-radius: 1.25rem;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.625rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 1px 4px;
+    }
+    .ap p {
+        padding-bottom: 8px;
+        width: 5.25rem;
+        height: 1.125rem;
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,131 @@
+.Media-Gallery {
+    width: 100vw;
+    height: 700px;
+    margin-left: 120px;
+    margin-top: 93px;
+    margin-bottom: 120px;
+}
+
+.Media-Gallery img {
+    height: 228px;
+    width: 228px;
+    padding: 15px;
+}
+
+.Media-Gallery {
+    margin-left: 3%;
+    margin-bottom: 2rem;
+    height: auto;
+    max-width: 100%;
+    margin-top: 2rem;
+    height: 660px;
+    overflow: hidden;
+}
+
+.Media-Box .button {
+    margin-left: -80px;
+    text-align: center;
+    margin-top: 85px;
+}
+
+.Media-Box h2 {
+    text-align: center;
+}
+
+.span-contain {
+    text-align: center;
+}
+
+.viewmore {
+    background: #747171;
+    border-radius: 20px;
+    width: 150px;
+    height: 34.62px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    font-size: 1.125rem;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.button-change,
+.adjust {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media only screen and (max-width: 600px) {
+    .Media-Gallery .resp {
+        display: inline-block;
+        width: 30%;
+        height: auto;
+    }
+    .resp1 {
+        margin-left: 5px;
+    }
+    .button a:hover {
+        width: 150px;
+        height: 42.07px;
+        background: #747171;
+        border-radius: 10px;
+        color: #ffffff;
+    }
+    .resp2 {
+        margin-left: 2px;
+    }
+    .mobile-gallery {
+        display: none;
+    }
+    .Media-Box .button {
+        margin-top: 0;
+        margin-bottom: 1.125rem;
+    }
+    .Media-Gallery img {
+        width: 113px;
+        height: 130px;
+        padding: 4px;
+    }
+    .Media-Gallery {
+        margin-left: 3%;
+        margin-bottom: 1rem;
+        height: auto;
+        max-width: 100%;
+        margin-top: 0;
+        height: 520px;
+        overflow: hidden;
+    }
+    .Media-Box .button {
+        margin-left: 0;
+    }
+    .Media-Box .button a {
+        border: 1px solid #747171;
+        box-sizing: border-box;
+        border-radius: 20px;
+        margin-left: 0.3rem;
+    }
+    .viewmore {
+        width: 4.938rem;
+        height: 1.143rem;
+        border-radius: 1.25rem;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.625rem;
+        line-height: 1rem;
+        padding: 0.125rem 0.5rem;
+        margin: 1rem;
+    }
+    .Media-Box h2 {
+        margin-top: 2.5rem;
+        margin-bottom: 1.875rem;
+    }
+    .adjust {
+        padding: 4px 10px !important;
+    }
+    .act {
+        background-color: #747171;
+        font-size: 28px;
+    }
+}
